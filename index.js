@@ -7,8 +7,8 @@ const mondayWork = function (activity="go to the office"){
 
 
 let wrapAdjective = function(style="*") {
-    return function(adjective="special") {
-      return `You are ${style}${adjective}${style}!`
-    }
+  return function(adjective="special") {
+    return `You are ${style}${adjective}${style}!`
   }
+}
 
